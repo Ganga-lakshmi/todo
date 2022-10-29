@@ -22,7 +22,7 @@ app.use(express.urlencoded({ extended: true }));
 mongoose.connect(process.env.DB_CONNECT, {useNewUrlParser :true, 
     useUnifiedTopology:true
 })
-.then(() => app.listen(3000, () => console.log("listening at port 3000")))
+.then(() => app.listen(3000, () => console.log("arjun is running on port 3000")))
 .catch((error) => 
     console.log(error));
 //view engine
